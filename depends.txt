@@ -1,8 +1,8 @@
 default
 bucket
 doors
-stairs
 xpanes
+stairs?
 fire?
 oresplus?
 moreblocks?
