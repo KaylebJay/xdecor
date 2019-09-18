@@ -244,7 +244,7 @@ minetest.register_craft({
 	output = "xdecor:woodframed_glass",
 	recipe = {
 		{"group:stick", "group:stick", "group:stick"},
-		{"group:stick", "default:glass", "group:stick"},
+		{"group:stick", "default:obsidian_glass", "group:stick"},
 		{"group:stick", "group:stick", "group:stick"}
 	}
 })
