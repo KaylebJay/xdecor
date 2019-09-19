@@ -109,9 +109,9 @@ end
 minetest.register_craft({
 	output = "xdecor:enderchest",
 	recipe = {
-		{"", "default:obsidian", ""},
-		{"default:obsidian", "default:chest", "default:obsidian"},
-		{"", "default:obsidian", ""}
+		{"", "lavastuff:block", ""},
+		{"lavastuff:block", "default:chest", "lavastuff:block"},
+		{"", "lavastuff:block", ""}
 	}
 })
 
