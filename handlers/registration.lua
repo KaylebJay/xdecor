@@ -52,20 +52,7 @@ local function xdecor_stairs_alternative(nodename, def)
 				def.groups.groupname = nil
 			end
 		end
-
-		if minetest.get_modpath("moreblocks") then
-			stairsplus:register_all(
-				mod,
-				name,
-				nodename,
-				{
-					description = def.description,
-					tiles = def.tiles,
-					groups = def.groups,
-					sounds = def.sounds,
-				}
-			)
-		elseif minetest.get_modpath("stairs") then
+		if minetest.get_modpath("stairs") then
 			stairs.register_stair_and_slab(name,nodename,
 				def.groups,
 				def.tiles,
