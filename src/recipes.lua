@@ -189,10 +189,10 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "xdecor:stone_rune 4",
+	output = "xdecor:stone_rune 5",
 	recipe = {
 		{"default:stone", "default:stone", "default:stone"},
-		{"default:stone", "", "default:stone"},
+		{"default:stone", "xdecor:stone_tile", "default:stone"},
 		{"default:stone", "default:stone", "default:stone"}
 	}
 })
