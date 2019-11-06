@@ -181,10 +181,10 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = "xdecor:stone_tile 2",
+	output = "xdecor:stone_tile 6",
 	recipe = {
-		{"default:cobble", "default:cobble"},
-		{"default:cobble", "default:cobble"}
+		{"default:stone", "default:stone", "default:stone"},
+		{"default:stone", "default:stone", "default:stone"}
 	}
 })
 
