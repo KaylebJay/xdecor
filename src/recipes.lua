@@ -168,8 +168,16 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "xdecor:packed_ice",
 	recipe = {
-		{"default:ice", "default:ice"},
-		{"default:ice", "default:ice"}
+		{"default:ice", "default:ice", "default:ice"},
+		{"default:ice", "default:ice", "default:ice"},
+		{"default:ice", "default:ice", "default:ice"}
+	}
+})
+
+minetest.register_craft({
+	output = "default:ice 9",
+	recipe = {
+		{"xdecor:packed_ice"}
 	}
 })
 
