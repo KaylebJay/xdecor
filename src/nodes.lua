@@ -27,9 +27,9 @@ register_pane("bamboo_frame", "Bamboo Frame", {
 register_pane("chainlink", "Chainlink", {
 	groups = {cracky = 3, oddly_breakable_by_hand = 2, pane = 1},
 	recipe = {
-		{"default:steel_ingot", "", "default:steel_ingot"},
 		{"", "default:steel_ingot", ""},
-		{"default:steel_ingot", "", "default:steel_ingot"}
+		{"default:steel_ingot", "default:steel_ingot", "default:steel_ingot"},
+		{"", "default:steel_ingot", ""}
 	}
 })
 
